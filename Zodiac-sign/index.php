@@ -8,7 +8,7 @@
 
 </head>
 <body>
-    <?php
+    <!-- <?php
         $Date="";
         $Month="";
         $Image="";
@@ -27,7 +27,7 @@
   
             switch ($Month){
                 case 1:
-                    if($Date <= 20){$Image = "capricorn"; $Name = "CAPRICORNUS"; $Time = "(22/12 – 20/1)"; $About = "CAPRICORN IS THE SIGN OF TRADITION, PERSEVERANCE AND LIFE’S WINTRY TIMES.
+                    if($Date <= 20){$Image = "https://firebasestorage.googleapis.com/v0/b/blog-7d3a3.appspot.com/o/zodiac%2Fcapricorn.jpg?alt=media&token=2704a538-5fa6-41bb-b887-183c26459662"; $Name = "CAPRICORNUS"; $Time = "(22/12 – 20/1)"; $About = "CAPRICORN IS THE SIGN OF TRADITION, PERSEVERANCE AND LIFE’S WINTRY TIMES.
 
                         <br/>
                         You show power when you’re:
@@ -46,7 +46,7 @@
                         too focused on status, convention
                         ruthless in attaining what you want
                         self-denigrating when you don’t meet your own high standards";}
-                    if($Date >= 21){$Image = "aquarius"; $Name = "AQUARIUS"; $Time = "(21/1 – 19/2)"; $About = "AQUARIUS IS THE SIGN OF FAR-SIGHTEDNESS AND HUMANE VALUES.
+                    if($Date >= 21){$Image = "https://firebasestorage.googleapis.com/v0/b/blog-7d3a3.appspot.com/o/zodiac%2Faquarius.jpg?alt=media&token=27cf1683-55b6-4d93-be84-f58aa74ee045"; $Name = "AQUARIUS"; $Time = "(21/1 – 19/2)"; $About = "AQUARIUS IS THE SIGN OF FAR-SIGHTEDNESS AND HUMANE VALUES.
 
                         <br/>
                         You show power when you’re:
@@ -66,7 +66,7 @@
                     if($Date <1 || $Date >31){$flag = false;}
                 break;
                 case 2:
-                    if($Date <= 19){$Image = "aquarius"; $Name = "AQUARIUS"; $Time = "(21/1 – 19/2)"; $About = "AQUARIUS IS THE SIGN OF FAR-SIGHTEDNESS AND HUMANE VALUES.
+                    if($Date <= 19){$Image = "https://firebasestorage.googleapis.com/v0/b/blog-7d3a3.appspot.com/o/zodiac%2Faquarius.jpg?alt=media&token=27cf1683-55b6-4d93-be84-f58aa74ee045"; $Name = "AQUARIUS"; $Time = "(21/1 – 19/2)"; $About = "AQUARIUS IS THE SIGN OF FAR-SIGHTEDNESS AND HUMANE VALUES.
 
                         <br/>
                         You show power when you’re:
@@ -83,7 +83,7 @@
                         stuck in an unusual, but rigid matrix of thought
                         defiant in a way that’s self-destructive
                         unable to create any kind of stability";}
-                    if($Date >= 20){$Image = "pisces"; $Name = "PISCES"; $Time = "(20/2 – 20/3)"; $About = "PISCES IS THE SIGN OF HEIGHTENED SENSITIVITY AND IMAGINATION.
+                    if($Date >= 20){$Image = "https://firebasestorage.googleapis.com/v0/b/blog-7d3a3.appspot.com/o/zodiac%2Fpisces.jpg?alt=media&token=78d64c64-b6e1-4a44-ad37-ec5f52ba10c6"; $Name = "PISCES"; $Time = "(20/2 – 20/3)"; $About = "PISCES IS THE SIGN OF HEIGHTENED SENSITIVITY AND IMAGINATION.
 
                         <br/>
                         You show power when you’re:
@@ -104,7 +104,7 @@
                     if($Date <1 || $Date >29){$flag = false;}
                 break;
                 case 3:
-                    if($Date <= 20){$Image = "pisces"; $Name = "PISCES"; $Time = "(20/2 – 20/3)"; $About = "PISCES IS THE SIGN OF HEIGHTENED SENSITIVITY AND IMAGINATION.
+                    if($Date <= 20){$Image = "https://firebasestorage.googleapis.com/v0/b/blog-7d3a3.appspot.com/o/zodiac%2Fpisces.jpg?alt=media&token=78d64c64-b6e1-4a44-ad37-ec5f52ba10c6"; $Name = "PISCES"; $Time = "(20/2 – 20/3)"; $About = "PISCES IS THE SIGN OF HEIGHTENED SENSITIVITY AND IMAGINATION.
 
                         <br/>
                         You show power when you’re:
@@ -122,7 +122,7 @@
                         too involved in saving others, without tending to your own needs
                         losing your moral center because of the need to please
                         overexposed to stimulation, and unable to access the subtle senses";}
-                    if($Date >= 21){$Image = "aries"; $Name = "ARIES"; $Time = "(21/3 – 20/4)"; $About = "ARIES, YOURS IS A SIGN OF BLASTING FORTH ACTION.
+                    if($Date >= 21){$Image = "https://firebasestorage.googleapis.com/v0/b/blog-7d3a3.appspot.com/o/zodiac%2Faries.jpg?alt=media&token=1b806aa4-7646-4a02-ac2c-b616feaf1a0f"; $Name = "ARIES"; $Time = "(21/3 – 20/4)"; $About = "ARIES, YOURS IS A SIGN OF BLASTING FORTH ACTION.
                         <br/>
                         You show power when you’re:
                         <br/>
@@ -149,7 +149,7 @@
                     if($Date <1 || $Date >31){$flag = false;}
                 break;
                 case 4:
-                    if($Date <= 20){$Image = "aries"; $Name = "ARIES"; $Time = "(21/3 – 20/4)"; $About = "ARIES, YOURS IS A SIGN OF BLASTING FORTH ACTION.
+                    if($Date <= 20){$Image = "https://firebasestorage.googleapis.com/v0/b/blog-7d3a3.appspot.com/o/zodiac%2Faries.jpg?alt=media&token=1b806aa4-7646-4a02-ac2c-b616feaf1a0f"; $Name = "ARIES"; $Time = "(21/3 – 20/4)"; $About = "ARIES, YOURS IS A SIGN OF BLASTING FORTH ACTION.
                         <br/>
                         You show power when you’re:
                         <br/>
@@ -173,7 +173,7 @@
                         always fired up, without downtime
                         burnt-out and emotionally brittle
                         fighting meaningless battles.";}
-                    if($Date >= 21){$Image = "taurus"; $Name = "TAURUS"; $Time = "(21/4 – 21/5)"; $About = "TAURUS IS A SIGN OF THRIVING AND STABILITY.
+                    if($Date >= 21){$Image = "https://firebasestorage.googleapis.com/v0/b/blog-7d3a3.appspot.com/o/zodiac%2Ftaurus.jpg?alt=media&token=715d769a-ea21-493a-aa1f-4ba8031efeba"; $Name = "TAURUS"; $Time = "(21/4 – 21/5)"; $About = "TAURUS IS A SIGN OF THRIVING AND STABILITY.
                         <br/>
                         You show power when you’re:
                         <br/>
@@ -195,7 +195,7 @@
                     if($Date <1 || $Date >30){$flag = false;}
                 break;
                 case 5:
-                    if($Date <= 21){$Image = "taurus"; $Name = "TAURUS"; $Time = "(21/4 – 21/5)"; $About = "TAURUS IS A SIGN OF THRIVING AND STABILITY.
+                    if($Date <= 21){$Image = "https://firebasestorage.googleapis.com/v0/b/blog-7d3a3.appspot.com/o/zodiac%2Ftaurus.jpg?alt=media&token=715d769a-ea21-493a-aa1f-4ba8031efeba"; $Name = "TAURUS"; $Time = "(21/4 – 21/5)"; $About = "TAURUS IS A SIGN OF THRIVING AND STABILITY.
                         <br/>
                         You show power when you’re:
                         <br/>
@@ -214,7 +214,7 @@
                         unable to jump on opportunities
                         overindulgent, lazy or dull-minded
                         too set in your ways";}
-                    if($Date >= 22){$Image = "gemini"; $Name = "GEMINI"; $Time = "(22/5 – 21/6)"; $About = "GEMINI IS THE SIGN OF FLUENCY AND NIMBLE CHANGE.
+                    if($Date >= 22){$Image = "https://firebasestorage.googleapis.com/v0/b/blog-7d3a3.appspot.com/o/zodiac%2Fgemini.jpg?alt=media&token=47042b9a-06f8-41ad-8a2d-bc8b5abfbee7"; $Name = "GEMINI"; $Time = "(22/5 – 21/6)"; $About = "GEMINI IS THE SIGN OF FLUENCY AND NIMBLE CHANGE.
                         <br/>
                         You show power when you’re:
                         <br/>
@@ -240,7 +240,7 @@
                     if($Date <1 || $Date >31){$flag = false;}
                 break;
                 case 6:
-                    if($Date <= 21){$Image = "gemini"; $Name = "GEMINI"; $Time = "(22/5 – 21/6)"; $About = "GEMINI IS THE SIGN OF FLUENCY AND NIMBLE CHANGE.
+                    if($Date <= 21){$Image = "https://firebasestorage.googleapis.com/v0/b/blog-7d3a3.appspot.com/o/zodiac%2Fgemini.jpg?alt=media&token=47042b9a-06f8-41ad-8a2d-bc8b5abfbee7"; $Name = "GEMINI"; $Time = "(22/5 – 21/6)"; $About = "GEMINI IS THE SIGN OF FLUENCY AND NIMBLE CHANGE.
                         <br/>
                         You show power when you’re:
                         <br/>
@@ -263,7 +263,7 @@
                         giving in to cynicism
                         not getting enough “Me” time to center yourself
                         not allowing for silence to hear your own thoughts";}
-                    if($Date >= 22){$Image = "cancer"; $Name = "CANCER"; $Time = "(22/6 – 23/7)"; $About = "CANCER IS THE SIGN OF EMOTIONS AND THE HOME.
+                    if($Date >= 22){$Image = "https://firebasestorage.googleapis.com/v0/b/blog-7d3a3.appspot.com/o/zodiac%2Fcancer.jpg?alt=media&token=217dee56-85d4-4cff-a6b6-2dd02483f909"; $Name = "CANCER"; $Time = "(22/6 – 23/7)"; $About = "CANCER IS THE SIGN OF EMOTIONS AND THE HOME.
                         <br/>
                         You show power when you’re:
                         <br/>
@@ -285,7 +285,7 @@
                     if($Date <1 || $Date >30){$flag = false;}
                 break;
                 case 7:
-                    if($Date <= 23){$Image = "cancer"; $Name = "CANCER"; $Time = "(22/6 – 23/7)"; $About = "CANCER IS THE SIGN OF EMOTIONS AND THE HOME.
+                    if($Date <= 23){$Image = "https://firebasestorage.googleapis.com/v0/b/blog-7d3a3.appspot.com/o/zodiac%2Fcancer.jpg?alt=media&token=217dee56-85d4-4cff-a6b6-2dd02483f909"; $Name = "CANCER"; $Time = "(22/6 – 23/7)"; $About = "CANCER IS THE SIGN OF EMOTIONS AND THE HOME.
                         <br/>
                         You show power when you’re:
                         <br/>
@@ -304,7 +304,7 @@
                         wounded and lashing out
                         only loving toward those in your clan (family, race, nation)
                         unable to see beyond your own problems";}
-                    if($Date >= 24){$Image = "leo"; $Name = "LEO"; $Time = "(24/7 – 23/8)"; $About = "LEO IS THE SIGN OF EXUBERANT CREATIVITY.
+                    if($Date >= 24){$Image = "https://firebasestorage.googleapis.com/v0/b/blog-7d3a3.appspot.com/o/zodiac%2Fleo.jpg?alt=media&token=b0f1b126-f027-40fa-9330-0c45f756cfb9"; $Name = "LEO"; $Time = "(24/7 – 23/8)"; $About = "LEO IS THE SIGN OF EXUBERANT CREATIVITY.
                         <br/>
 
                         You show power when you’re:
@@ -328,7 +328,7 @@
                     if($Date <1 || $Date >31){$flag = false;}
                 break;
                 case 8:
-                    if($Date <= 23){$Image = "leo"; $Name = "LEO"; $Time = "(24/7 – 23/8)"; $About = "LEO IS THE SIGN OF EXUBERANT CREATIVITY.
+                    if($Date <= 23){$Image = "https://firebasestorage.googleapis.com/v0/b/blog-7d3a3.appspot.com/o/zodiac%2Fleo.jpg?alt=media&token=b0f1b126-f027-40fa-9330-0c45f756cfb9"; $Name = "LEO"; $Time = "(24/7 – 23/8)"; $About = "LEO IS THE SIGN OF EXUBERANT CREATIVITY.
                         <br/>
 
                         You show power when you’re:
@@ -349,7 +349,7 @@
                         inconsiderate toward other people’s time, efforts, gifts
                         resentful from feeling disrespected
                         taking life too seriously";}
-                    if($Date >= 24){$Image = "virgo"; $Name = "VIRGO"; $Time = "(24/8 – 23/9)"; $About = "VIRGO IS THE SIGN OF DEVOTION, HEALTHY LIVING AND SELF-IMPROVEMENT.
+                    if($Date >= 24){$Image = "https://firebasestorage.googleapis.com/v0/b/blog-7d3a3.appspot.com/o/zodiac%2Fvirgo.jpg?alt=media&token=4eb72624-5824-4dc2-b3cf-a3904bfa6ccb"; $Name = "VIRGO"; $Time = "(24/8 – 23/9)"; $About = "VIRGO IS THE SIGN OF DEVOTION, HEALTHY LIVING AND SELF-IMPROVEMENT.
                         <br/>
 
                         You show power when you’re:
@@ -372,7 +372,7 @@
                     if($Date <1 || $Date >31){$flag = false;}
                 break;
                 case 9:
-                    if($Date <= 23){$Image = "virgo"; $Name = "VIRGO"; $Time = "(24/8 – 23/9)"; $About = "VIRGO IS THE SIGN OF DEVOTION, HEALTHY LIVING AND SELF-IMPROVEMENT.
+                    if($Date <= 23){$Image = "https://firebasestorage.googleapis.com/v0/b/blog-7d3a3.appspot.com/o/zodiac%2Fvirgo.jpg?alt=media&token=4eb72624-5824-4dc2-b3cf-a3904bfa6ccb"; $Name = "VIRGO"; $Time = "(24/8 – 23/9)"; $About = "VIRGO IS THE SIGN OF DEVOTION, HEALTHY LIVING AND SELF-IMPROVEMENT.
                         <br/>
 
                         You show power when you’re:
@@ -392,7 +392,7 @@
                         spinning out on the little things that can go wrong
                         worry over all there is to do
                         overly fixated on your aches and pains";}
-                    if($Date >= 24){$Image = "libra"; $Name = "LIBRA"; $Time = "(24/9 – 23/10)"; $About = "LIBRA IS THE SIGN OF BEAUTY AND ART, AND ROMANTIC LOVE.
+                    if($Date >= 24){$Image = "https://firebasestorage.googleapis.com/v0/b/blog-7d3a3.appspot.com/o/zodiac%2Flibra.jpg?alt=media&token=0ad2e154-7dda-4969-864b-6736bdcded0b"; $Name = "LIBRA"; $Time = "(24/9 – 23/10)"; $About = "LIBRA IS THE SIGN OF BEAUTY AND ART, AND ROMANTIC LOVE.
 
                         <br/>
                         You show power when you’re:
@@ -417,7 +417,7 @@
                     if($Date <1 || $Date >30){$flag = false;}
                 break;
                 case 10:
-                    if($Date <= 23){$Image = "libra"; $Name = "LIBRA"; $Time = "(24/9 – 23/10)"; $About = "LIBRA IS THE SIGN OF BEAUTY AND ART, AND ROMANTIC LOVE.
+                    if($Date <= 23){$Image = "https://firebasestorage.googleapis.com/v0/b/blog-7d3a3.appspot.com/o/zodiac%2Flibra.jpg?alt=media&token=0ad2e154-7dda-4969-864b-6736bdcded0b"; $Name = "LIBRA"; $Time = "(24/9 – 23/10)"; $About = "LIBRA IS THE SIGN OF BEAUTY AND ART, AND ROMANTIC LOVE.
 
                         <br/>
                         You show power when you’re:
@@ -439,7 +439,7 @@
                         avoiding a necessary confrontation
                         unwilling to see the dark, along with the light
                         full of great ideas, that never get executed";}
-                    if($Date >= 24){$Image = "scorpio"; $Name = "SCORPIO"; $Time = "(24/10 – 22/11)"; $About = "SCORPIO IS THE SIGN OF SEXUALITY, THE SHADOWS, AND GREAT FEATS.
+                    if($Date >= 24){$Image = "https://firebasestorage.googleapis.com/v0/b/blog-7d3a3.appspot.com/o/zodiac%2Fscorpio.jpg?alt=media&token=a9a6a280-5e9e-4757-8e9f-a3ac1960e766"; $Name = "SCORPIO"; $Time = "(24/10 – 22/11)"; $About = "SCORPIO IS THE SIGN OF SEXUALITY, THE SHADOWS, AND GREAT FEATS.
                         <br/>
 
                         You show power when you’re:
@@ -461,7 +461,7 @@
                     if($Date <1 || $Date >31){$flag = false;}
                 break;
                 case 11:
-                    if($Date <= 22){$Image = "scorpio"; $Name = "SCORPIO"; $Time = "(24/10 – 22/11)"; $About = "SCORPIO IS THE SIGN OF SEXUALITY, THE SHADOWS, AND GREAT FEATS.
+                    if($Date <= 22){$Image = "https://firebasestorage.googleapis.com/v0/b/blog-7d3a3.appspot.com/o/zodiac%2Fscorpio.jpg?alt=media&token=a9a6a280-5e9e-4757-8e9f-a3ac1960e766"; $Name = "SCORPIO"; $Time = "(24/10 – 22/11)"; $About = "SCORPIO IS THE SIGN OF SEXUALITY, THE SHADOWS, AND GREAT FEATS.
                         <br/>
 
                         You show power when you’re:
@@ -480,7 +480,7 @@
                         stuck in the death part of the cycle with a fixation on destruction
                         too fearful of losing control that you don’t express yourself
                         manipulative or psychically invasive";}
-                    if($Date >= 23){$Image = "sagittarius"; $Name = "SAGITTARIUS"; $Time = "(23/11 – 21/12)"; $About = "SAGITTARIUS IS THE SIGN OF KNOWLEDGE-SEEKING AND WANDERING FAR AFIELD.
+                    if($Date >= 23){$Image = "https://firebasestorage.googleapis.com/v0/b/blog-7d3a3.appspot.com/o/zodiac%2Fsagittarius.jpg?alt=media&token=e77bc30b-beac-4c2e-8221-f63876473410"; $Name = "SAGITTARIUS"; $Time = "(23/11 – 21/12)"; $About = "SAGITTARIUS IS THE SIGN OF KNOWLEDGE-SEEKING AND WANDERING FAR AFIELD.
 
                         <br/>
                         You show power when you’re:
@@ -502,7 +502,7 @@
                     if($Date <1 || $Date >30){$flag = false;}
                 break;
                 case 12:
-                    if($Date <= 21){$Image = "sagittarius"; $Name = "SAGITTARIUS"; $Time = "(23/11 – 21/12)"; $About = "SAGITTARIUS IS THE SIGN OF KNOWLEDGE-SEEKING AND WANDERING FAR AFIELD.
+                    if($Date <= 21){$Image = "https://firebasestorage.googleapis.com/v0/b/blog-7d3a3.appspot.com/o/zodiac%2Fsagittarius.jpg?alt=media&token=e77bc30b-beac-4c2e-8221-f63876473410"; $Name = "SAGITTARIUS"; $Time = "(23/11 – 21/12)"; $About = "SAGITTARIUS IS THE SIGN OF KNOWLEDGE-SEEKING AND WANDERING FAR AFIELD.
 
                         <br/>
                         You show power when you’re:
@@ -521,7 +521,7 @@
                         <br/>
                         bogged down in work that’s meaningless for you
                         alienating others by being intolerant";}
-                    if($Date >= 22){$Image = "capricorn"; $Name = "CAPRICORNUS"; $Time = "(22/12 – 20/1)"; $About = "CAPRICORN IS THE SIGN OF TRADITION, PERSEVERANCE AND LIFE’S WINTRY TIMES.
+                    if($Date >= 22){$Image = "https://firebasestorage.googleapis.com/v0/b/blog-7d3a3.appspot.com/o/zodiac%2Fcapricorn.jpg?alt=media&token=2704a538-5fa6-41bb-b887-183c26459662"; $Name = "CAPRICORNUS"; $Time = "(22/12 – 20/1)"; $About = "CAPRICORN IS THE SIGN OF TRADITION, PERSEVERANCE AND LIFE’S WINTRY TIMES.
 
                         <br/>
                         You show power when you’re:
@@ -547,7 +547,7 @@
             break;
             }           
         }
-    ?>
+    ?> -->
 
     <form action="#" method="POST">
         <label for="signin">What is your zodiac ?</label>
@@ -563,10 +563,10 @@
         </button>
       </form>
 
-      <?php
+      <!-- <?php
         if($flag == true){
             $result = ' <div class="about">
-            <div class="col-left"><img src="./images/'.$Image.'.jpg" alt="'. $Name .'"/></div> 
+            <div class="col-left"><img src= '. $Image .'" alt="'. $Name .'"/></div> 
             <div class="col-right">
             <div class="cont">
             <p>'. $Name . ''."  ".'' . $Time .'</p>
@@ -579,7 +579,9 @@
             $result = ' <div class="about"><h1>"Oops! Find not Found"</h1></div>';
             echo  $result;
         }    
-        ?>
+        ?> -->
+
+        <div class="about"><h1>"Oops! Find not Found"</h1></div>
       <div id="hint">Click on the tabs</div>
 </body>
 </html>
